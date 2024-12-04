@@ -1,0 +1,50 @@
+.footerbg{
+    background: linear-gradient(rgba(109, 218, 216, 0.2), rgba(109, 218, 216, 0.2)),
+    url("../../assets/rec-right.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 2px solid darkblue;
+    border-bottom: 2px solid darkblue;
+}
+.jobsinindia{
+    width:60%;
+    background: 
+    linear-gradient(rgba(109, 218, 216, 0.2), rgba(109, 218, 216, 0.2)),
+    url('../../assets/city-job-bg.jpg');
+    /* background: url('../../assets/city-job-bg.jpg'),linear-gradient(#6ddad8); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20vh;
+    padding: 10px;
+}
+.internationaljobs{
+    width: 40%;
+    background: linear-gradient(rgba(109, 218, 216, 0.2), rgba(109, 218, 216, 0.2)),
+    url('../../assets/city-job-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20vh;
+    margin-left: 5px;
+    padding: 10px;
+}
+.footerpart2{
+    background: linear-gradient(rgba(109, 218, 216, 0.2), rgba(109, 218, 216, 0.2));
+    padding: 1% 12% 1% 12%;
+    font-size: 13px;
+    
+}
+.socialitems{
+    text-align: end;
+    margin-top: 10px;
+}
+.socialitems a{
+    margin:0px 4px 0px 4px ;
+    padding: 6px;
+    font-size: 14px;
+    background-color: #054274;
+}
+.footerlast{
+    background: linear-gradient(rgba(109, 218, 216, 0.2), rgba(109, 218, 216, 0.2));
+  border-top: 1px solid black;
+  line-height: 30px;
+}

@@ -1,0 +1,44 @@
+.welcomeoffer{
+    background:linear-gradient(to right, #6ddad8 , #054274);
+    border-radius: 5px ;
+}
+.registerbtn:hover{
+    color: white !important;
+}
+.offertagline {
+    font-size: large;
+    background-image: linear-gradient(10deg,
+            #f5f3fd 0%,
+            gold 29%,
+            #f5f3fd 67%,
+            gold 100%);
+    background-size: 200% auto;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 3s linear infinite;
+    display: inline-block;
+}
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+.sectionhead1{
+    color: #054274;
+}
+/* .card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+} */
+.onmblbanner {
+    background: url("../../assets/plays-storeimg.jpg")  ;
+    height: 50vh;
+    font-size: 1.9rem;
+    background-size: auto; 
+}
+.mblimgcontent{
+    margin-top: 10vh;
+    line-height: 45px;
+    margin-left: 15%;
+}

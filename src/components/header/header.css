@@ -1,0 +1,29 @@
+.logo{
+    width: 27%;
+    margin-left: 25px;
+}
+.logo-quote{
+    font-size: 1.2rem;
+}
+header{
+    padding: 4px;
+    box-shadow: 1px 1px 10px 1px rgb(195, 190, 190);
+}
+.navbar-item{
+    margin-left: 1.em;
+    margin-right: 1.5em;
+}
+.emplogin{
+    background-color: gold !important;
+}
+.emplogin:hover{
+    background-color: rgb(23, 23, 83) !important;
+    color: white !important;
+}
+.jobseekerlogin{
+    border:1px solid gray !important;
+}
+.jobseekerlogin:hover{
+    background-color: gold !important;
+}
+
