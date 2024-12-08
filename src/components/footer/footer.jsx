@@ -4,7 +4,7 @@ export function Footer() {
     return (
         <>
             <div >
-                <div className="d-flex">
+                <div className="jobscategory">
                     <div className=" jobsinindia ">
                         <div className="fs-3 text-center fw-bold">
                             JOBS IN INDIA
@@ -42,28 +42,28 @@ export function Footer() {
                     </div>
                 </div>
                 <div className='d-flex footerbg py-3'>
-                    <div className="d-flex justify-content-between w-100 " style={{ marginLeft: "14%", marginRight: "14%" }}>
+                    <div className="jobcountbanner ">
                         <span>
                             <div>Jobs Posted</div>
-                            <div className="fs-2 fw-bold" style={{ color: "#054274" }}>31432</div>
+                            <div className=" jobcount fw-bold" style={{ color: "#054274" }}>31432</div>
                         </span>
                         <span>
                             <div>Jobs Filled</div>
-                            <div className="fs-2 fw-bold" style={{ color: "#054274" }}>15153</div>
+                            <div className=" jobcount fw-bold" style={{ color: "#054274" }}>15153</div>
                         </span>
                         <span>
                             <div>Employers</div>
-                            <div className="fs-2 fw-bold" style={{ color: "#054274" }}>20085</div>
+                            <div className=" jobcount fw-bold" style={{ color: "#054274" }}>20085</div>
                         </span>
                         <span>
                             <div>Active Users</div>
-                            <div className="fs-2 fw-bold" style={{ color: "#054274" }}>1296217</div>
+                            <div className=" jobcount fw-bold" style={{ color: "#054274" }}>1296217</div>
                         </span>
                     </div>
                 </div>
                 <div className='footerpart2'>
-                    <div className='d-flex  align-items-center'>
-                        <div><b>Disclaimer:</b> All Trademarks and Logos are the property of their respective owners, depicted here purely for representation purpose. | Jobringer.com has taken all reasonable steps to ensure that information on this site is genuine. Job Applicants are advised to evaluate independently. Jobringer.com shall not have any responsibility in this regard. All Jobseeker services are strictly designed & meant only for job search assistance and to maximize the chances for the jobseekers to get their dream job. All Job Seeker Credentials and Employment Opportunities are subject to individual merit & evaluation. We do not guarantee any job to any jobseeker.</div>
+                    <div className='disclaimercontainer '>
+                        <div className='disclaimertext'><b>Disclaimer:</b> All Trademarks and Logos are the property of their respective owners, depicted here purely for representation purpose. | Jobringer.com has taken all reasonable steps to ensure that information on this site is genuine. Job Applicants are advised to evaluate independently. Jobringer.com shall not have any responsibility in this regard. All Jobseeker services are strictly designed & meant only for job search assistance and to maximize the chances for the jobseekers to get their dream job. All Job Seeker Credentials and Employment Opportunities are subject to individual merit & evaluation. We do not guarantee any job to any jobseeker.</div>
                         <img src={bgimg} height={50}></img>
                     </div>
                     <div className="socialitems">

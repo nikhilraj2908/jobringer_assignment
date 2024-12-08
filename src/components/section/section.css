@@ -1,11 +1,16 @@
 .welcomeoffer{
     background:linear-gradient(to right, #6ddad8 , #054274);
     border-radius: 5px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 .registerbtn:hover{
     color: white !important;
 }
 .offertagline {
+    display: block;
     font-size: large;
     background-image: linear-gradient(10deg,
             #f5f3fd 0%,
@@ -26,6 +31,11 @@
 .sectionhead1{
     color: #054274;
 }
+.searchcontainer{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
 /* .card-container{
     display: flex;
     flex-wrap: wrap;
@@ -41,4 +51,30 @@
     margin-top: 10vh;
     line-height: 45px;
     margin-left: 15%;
+}
+.searchbar{
+    width: 100%;
+}
+
+@media screen and (max-width:767px){
+    .offertagline{
+        display: none;
+    }
+    .welcomeoffer{
+        display: grid;
+        line-height: 40px;
+    }
+    .searchcontainer{
+        display: grid;
+        margin: 0px;
+    }
+    .searchbar{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .onmblbanner{
+        text-align:center;
+        margin-left: -20px;
+        height: auto;
+    }
 }

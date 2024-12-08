@@ -48,3 +48,58 @@
   border-top: 1px solid black;
   line-height: 30px;
 }
+.jobscategory{
+    display: flex;
+}
+.jobcount{
+    font-size: 1.5rem;
+}
+.jobcountbanner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.disclaimercontainer{
+    display: flex;
+    align-items: center;
+}
+.disclaimertext{
+    font-size:medium;
+}
+@media screen and (max-width:767px){
+    .jobscategory{
+        display: block;
+    }
+    .jobsinindia{
+        text-align: justify;
+        width: 100%;
+        margin-bottom: .6rem;
+        margin-top: 10px;
+    }
+    .internationaljobs{
+        width: 100%;
+        text-align: justify;
+
+        margin: 0px;
+    }
+    .jobcount{
+        font-size: 1rem;
+    }
+    .footerbg{
+        background: linear-gradient(rgba(253, 255, 255, 0.2), rgba(220, 227, 227, 0.2)),
+    url("");
+   
+    }
+    .disclaimertext{
+        font-size: small;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+    }
+    .socialitems{
+        text-align: left;
+    }
+}

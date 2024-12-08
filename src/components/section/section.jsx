@@ -9,8 +9,8 @@ export function Dashboard() {
         <>
             <div className="container-fluid">
                 <section>
-                    <div className="mt-3 welcomeoffer  p-2 d-flex justify-content-between align-items-center">
-                        <span className="ms-4 fs-3 fw-bold text-light">EMPLOYERS</span>
+                    <div className="mt-3 welcomeoffer  p-2 ">
+                        <span className="ms-2 fs-3 fw-bold text-light ">EMPLOYERS</span>
                         <span className="offertagline fw-bold">WELCOME OFFER - FREE JOB Postings and Much More.</span>
                         <span >
                             <button className="mx-2 btn btn-warning registerbtn">Register for FREE</button>
@@ -26,8 +26,8 @@ export function Dashboard() {
                             </div>
                         </sapn>
                     </div>
-                    <div className="d-flex justify-content-between mx-3">
-                        <span className=" col-6 p-4 me-4 rounded" style={{ backgroundColor: "#6ddad8" }}>
+                    <div className="searchcontainer ">
+                        <span className="searchbar  p-4 me-4 rounded" style={{ backgroundColor: "#6ddad8" }}>
                             <span className="mb-2 d-flex">
                                 <input className="form-control" placeholder="Search Jobs Now"></input>
                                 <button className="btn btn-warning ms-2">search</button>
@@ -37,7 +37,7 @@ export function Dashboard() {
                                 <button className="btn btn-warning">Register for FREE</button>
                             </span>
                         </span>
-                        <span className="rounded mx-2 p-3" style={{ backgroundColor: "#6ddad8" }}>
+                        <span className="rounded  p-3" style={{ backgroundColor: "#6ddad8" }}>
                             <div style={{ color: "#054274" }} className="fs-5 text-center fw-bold">Quick Job Search&nbsp;<span className="bi bi-search"></span></div>
                             <div className="text-light">#Fresher #Work From Home #WFH #IT #HR #Back Office #BPO Jobs #ITES #Finance #Accounts #Medical #Pharma #Manager #Developer #Marketing #Engineering #Non Government Jobs</div>
                         </span>
@@ -53,7 +53,7 @@ export function Dashboard() {
                     <div className="FeaturedEmployers">
                         <h3 className="text-center my-2">  FEATURED <span className="text-secondary"> EMPLOYERS</span></h3>
                     </div>
-                    <div className="row ">
+                    <div className="row">
                         <div className="onmblbanner ">
                             <div className="mblimgcontent">
                                 <div className="fw-bold"> APPLY TO JOBS ON-THE-GO</div>

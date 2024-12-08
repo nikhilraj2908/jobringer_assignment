@@ -134,7 +134,27 @@ export function Hybridjobs() {
             autoplay: true,
             autoplaySpeed: 2000,
             nextArrow: <SampleNextArrow />,
-            prevArrow: <SamplePrevArrow />
+            prevArrow: <SamplePrevArrow />,
+            responsive: [
+                {
+                    breakpoint: 1100, // For screens less than or equal to 1100px
+                    settings: {
+                        slidesToShow: 3
+                    }
+                },
+                {
+                    breakpoint: 900, // For screens less than or equal to 800px
+                    settings: {
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 600, // For screens less than or equal to 500px
+                    settings: {
+                        slidesToShow: 1
+                    }
+                }
+            ]
           };
     return (
         <>
